@@ -270,12 +270,12 @@ table.list {
     box-shadow: none; }
 
 #wrapper input[type="text"], .modal input[type="text"] {
-  font-family: "Osaka-Mono", "MS Gothic", sans-serif;
+  font-family: Consolas, Monaco, monospace;
   font-size: 100%; }
 
 #wrapper textarea.wiki-edit, .modal textarea.wiki-edit {
   font-size: 13px;
-  font-family: "Osaka-Mono", "MS Gothic", sans-serif;
+  font-family: Consolas, Monaco, monospace;
   letter-spacing: normal;
   line-height: 130%; }
 

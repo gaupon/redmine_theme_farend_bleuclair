@@ -60,13 +60,13 @@ $checkbox-margin: 7px 0 7px 2px;
   // テキストボックスで等幅フォントを使用
 
   input[type="text"] {
-    font-family: "Osaka-Mono", "MS Gothic", sans-serif;
+    font-family: Consolas, Monaco, monospace;
     font-size: 100%;
   }
 
   textarea.wiki-edit {
     font-size: 13px;
-    font-family: "Osaka-Mono", "MS Gothic", sans-serif;
+    font-family: Consolas, Monaco, monospace;
     letter-spacing: normal;
     line-height: 130%;
   }
