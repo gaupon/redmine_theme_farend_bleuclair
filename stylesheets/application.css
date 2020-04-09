@@ -127,7 +127,6 @@ table.list {
   table.list > tbody > tr > td,
   table.list > tfoot > tr > th,
   table.list > tfoot > tr > td {
-    padding: 4px;
     line-height: 1.74;
     vertical-align: top;
     border-top: 1px solid #dfe8f1;
@@ -206,6 +205,9 @@ table.list {
     border-top: 2px solid #dfe8f1; }
   table.list .odd {
     background-color: #f9f9f9; }
+
+table.list:not(.odd-even) tbody tr:nth-child(odd):hover, table.list .odd:hover, #issue-changesets div.changeset:nth-child(odd):hover, table.list:not(.odd-even) tbody tr:nth-child(even):hover, table.list .even:hover, #issue-changesets div.changeset:nth-child(even):hover {
+  background-color: #ffffdd; }
 
 #wrapper input[type="text"],
 #wrapper input[type="password"],
@@ -312,6 +314,10 @@ table.list {
 
 #wrapper .tabular label, .modal .tabular label {
   margin-top: 5px; }
+  #wrapper .tabular label.error, .modal .tabular label.error {
+    color: #bb0000 !important; }
+  #wrapper .tabular label.error + *, .modal .tabular label.error + * {
+    border: 1px solid #bb0000 !important; }
 
 #wrapper label.inline, .modal label.inline {
   margin-right: 5px; }
